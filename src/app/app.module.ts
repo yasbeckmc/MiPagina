@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MisMascotasComponent } from './mis-mascotas/mis-mascotas.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MisMascotasComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
